@@ -1,0 +1,808 @@
+     
+@media screen and (min-width:1024px){
+body{
+    margin: 0px;
+    font-size: 15px;
+    font-family: verdana;
+    background-image: url("../img/background.png");
+    background-size:contain;    
+}
+#principal{
+    width: 100%;
+    height: 2720px;
+   
+}
+/* ****************CABECALHO****************** */
+#cabecalho{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+     
+}
+#menu{
+    width: 100%;
+    height: 50px;
+    background-color: #1C0EB2;  
+}
+#menu ul{
+    text-align: center;
+    padding-top: 15px;
+    list-style: none;  
+    
+}
+#menu ul li {
+    margin-left: 30px;
+    
+    display: inline;
+}
+#menu li:hover{
+    text-decoration: underline;
+}
+#tbl_login{
+    margin-top: 20px;
+    float: right;
+    font-size: 15px;
+    display: inline-block;
+    
+    
+}
+#login{
+    height: 60px;
+    
+}
+#logo{
+    width: 250px;
+    height: 200px;
+   
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+/************* FIM CABECALHO **************/
+#slider{
+    width: 100%;
+    background-color: black
+     
+}
+#conteudo{
+    
+    width: 1180px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+/* MENU LATERAL */
+#menuLateral{
+    width: 178px;
+    height: 1200px;
+    background-color:  aliceblue;
+    border: solid 1px black;
+    color: #F6A615;
+}
+.lstproduto {
+    height: 1200px;
+    font-family: monospace;
+    font-weight: bolder;
+    
+}
+.subcategoria{
+    display: none;
+    padding-top: 10px;
+    
+    }
+.subcategoria:hover{
+    background-color: blue;
+}
+#menuLateral ul li:hover .subcategoria{
+    width: 100%;
+    display: inline-block;
+}
+#menuLateral ul li{
+    padding-bottom: 20px;
+    text-align: center;
+    list-style: none;
+    
+}
+/* FIM MENU LATERAL */
+
+/********** TABELA PRODUTOS *************/
+#produtos{
+    width: 1000px;
+    height: 1190px;
+    float: right;
+    padding-top: 10px;
+    display:inline-block; 
+    background-color:  aliceblue;
+}
+.div_wrap{
+    margin-top: 20px;
+    display: inline-block;
+}
+.div_wrap:hover{
+    background-color: beige;
+}
+/* EFEITO ZOM */
+.tabela{
+    
+     width:300px;
+    height:320px;
+    float: left;  
+    margin-left:30px;
+   
+    
+}
+.tabela {
+	position: relative;
+    overflow: hidden;
+}
+.tabela > img {
+   width: 100%;
+    height: 200px;
+	border-radius: 2px;
+	-webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.tabela:hover > img {
+	-webkit-transform: scale(1.2);
+   -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+     -o-transform: scale(1.2);
+        transform: scale(1.2);
+}
+.tabela .detalhes{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;    
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);    
+    border-radius: 2px;
+    text-align: center;
+    padding: 30px;
+ 
+    -webkit-transition:	 all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000); 
+}
+.tabela:hover .detalhes {
+    opacity: 1;
+    box-shadow: inset 0 0 100px 50px rgba(0,0,0,.5);
+    
+}
+.tabela .detalhes p {
+    margin-top: 90px;
+	text-align: center;
+    
+}
+.tabela .detalhes a {
+	display: block;
+	width: 150px;
+	background: #6fc5e9;
+	border: 1px solid #59afd4;
+	border-radius: 4px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 15px;
+	margin: 16px auto 0;
+}
+/* FIM EFEITO ZOM */
+
+/**** RODAPE ******/
+#rodape{
+    width: 1180px;
+    height: 550px;
+    background-color: chocolate;
+    margin-left: auto;
+    margin-right: auto; 
+   
+    
+    
+}
+.phone{
+    
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+#patrocinadores{
+     width: 100%;
+    height: 315px;
+    padding-top: 50px;
+    text-align: center;
+
+    background-color: currentColor;
+    
+}
+
+#patrocinadores h1{
+    color: aliceblue;
+}
+/**** FIM  RODAPE ******/
+
+a{
+   color: #F6A615;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*********** REDE SOCIAL *******/
+#redeSocial{
+  
+    float: left;
+}
+#redeSocial ul{
+    
+    position: fixed;
+    margin-left:1200px;
+    
+}
+#redeSocial ul li{
+    list-style: none;
+    padding-bottom: 5px;
+   
+    
+        
+}
+#redeSocial ul li:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    
+}
+/*********** FIM REDE SOCIAL *******/
+
+
+p{
+    text-align: center;
+    white-space:pre-wrap;
+}
+p:hover{
+    background-color: floralwhite;
+}
+#textoNoticia{
+    height: 1590px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/********** FALE CONOSCO **********/
+#faleConosco{
+    width: 1000px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    font-size: 20px;
+    background-color:black;
+    
+    
+}
+#faleConosco h2{
+    color: peru;
+    margin-bottom: 20px;    
+}
+#tblFaleconosco{
+    width: 900px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    background-color:dimgray;
+    text-align: center;
+}
+/********** FIM FALE CONOSCO **********/
+
+/********** ESTILIZAÇÃO DAS INPUTS *************/
+input[type=text],[type=email],[type=password]{
+    font-size: 15px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:250px;
+    height: 20px;
+    
+        
+}
+textarea{
+    border: 1px solid #000000;
+    background:#cccccc;
+    width:250px;
+    height:100px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+input[type=text]:hover,input[type=email]:hover,input[type=password]:hover, textarea:hover{ 
+         background: #ffffff; border:1px solid #990000;
+}
+input[type=submit]{
+        background:brown;
+        cursor: pointer;
+        padding: 10px;
+        color:#ffffff;
+}
+
+/* CAMPO DE BUSCA */
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+    
+   
+}
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:20px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+#divBusca img{
+  float:left;
+}
+/* FIM DO CAMPO DE BUSCA */
+
+.promoAbsolute{
+    position: absolute;
+    
+}
+.subirImg{
+   margin-top: 40px;
+    margin-left: 50px
+    }
+.modal{
+	max-width:900px;
+	height:500px;
+	background-color:#ffffff;
+	margin:auto;
+	
+    z-index: 998;
+
+}
+    .imgProdutoModal{
+        width: 250px;
+        
+    }
+    .imgProdutoModal:hover{
+    -webkit-transform: scale(1.5);
+   -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+     -o-transform: scale(1.5);
+        transform: scale(1.5);
+        
+    }
+.modalContainer{
+	width:100%;
+	height:100%;
+	background: rgba(0, 0, 0, 0.7);
+	position:fixed;
+	display:none;
+    z-index: 999;
+	
+
+}
+#tblModal{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    
+   
+}
+#tblModal td{
+    padding: 10px;
+    font-size:20px;
+     border: 1px solid pink;
+}
+}
+
+@media screen and (min-width:600px) and (max-width:745px){
+body{
+    margin: 0px;
+    font-size: 15px;
+    font-family: verdana;
+    background-image: url("../img/background.png");
+    background-size:contain;   
+ 
+}
+#principal{
+    width: 100%;
+    height: 3400px;
+    
+   
+}
+/* ****************CABECALHO****************** */
+#cabecalho{
+    max-width: 600px;
+    height: 300px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+#menu{
+    background-image: url(../img/menu.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 320px;
+   
+}
+
+#menu ul{
+   display: none;
+    width: 300px;;
+    height: 300px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+    list-style: none;  
+}
+#menu ul li {
+    margin-left: 30px;
+    width: 50%;
+    padding-bottom: 15px;
+    display: inline-block;
+    
+}
+#menu li:hover{
+    text-decoration: underline;
+    background-color: blue;
+}
+
+#login{
+    display: none;    
+}
+#logo{
+    width: 250px;
+    height: 200px;
+    margin-top: -200px;
+    margin-left: 300px;
+}
+/************* FIM CABECALHO **************/
+#slider{
+    max-width: 600px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-image: url(../img/01.jpg);*/
+     
+}
+#conteudo{
+    width: 600px;
+    min-height: 900px;
+    max-height: auto;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MENU LATERAL */
+#menuLateral{
+    width: 150px;
+    height: 1200px;
+    background-color:  aliceblue;
+    border: solid 1px blue;
+    color: #F6A615;
+}
+
+#menuLateral ul li{
+
+    text-align: center;
+    list-style: none;
+    
+}
+/* FIM MENU LATERAL */
+
+/********** TABELA PRODUTOS *************/
+#produtos{
+    max-width: 448px;
+    min-height: 1190px;
+    max-height: auto;
+    float: right;
+    padding-top: 10px;
+    display:inline-block; 
+    background-color:  aliceblue;
+}
+.div_wrap{
+    margin-top: 20px;
+    display: inline-block;
+}
+.div_wrap:hover{
+    background-color: beige;
+}
+/* EFEITO ZOM */
+.tabela{
+    
+    width:300px;
+    height:320px;
+    float: left;  
+    margin-left:70px;
+   
+    
+}
+.tabela {
+	position: relative;
+    overflow: hidden;
+}
+.tabela > img {
+   width: 100%;
+    height: 200px;
+	border-radius: 2px;
+	-webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.tabela:hover > img {
+	-webkit-transform: scale(1.2);
+   -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+     -o-transform: scale(1.2);
+        transform: scale(1.2);
+}
+.tabela .detalhes{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;    
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);    
+    border-radius: 2px;
+    text-align: center;
+    padding: 30px;
+ 
+    -webkit-transition:	 all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000); 
+}
+.tabela:hover .detalhes {
+    opacity: 1;
+    box-shadow: inset 0 0 100px 50px rgba(0,0,0,.5);
+    
+}
+.tabela .detalhes p {
+    margin-top: 90px;
+	text-align: center;
+    
+}
+.tabela .detalhes a {
+	display: block;
+	width: 150px;
+	background: #6fc5e9;
+	border: 1px solid #59afd4;
+	border-radius: 4px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 15px;
+	margin: 16px auto 0;
+}
+/* FIM EFEITO ZOM */
+
+/**** RODAPE ******/
+#rodape{
+    width: 600px;
+    height: 650px;
+    background-color: chocolate;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+.phone{
+    
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+#patrocinadores{
+     width: 100%;
+    height: 420px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: currentColor;
+    
+}
+  
+
+#patrocinadores h1{
+    color: aliceblue;
+}
+    
+/**** FIM  RODAPE ******/
+
+a{
+   color: #F6A615;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*********** REDE SOCIAL *******/
+#redeSocial{
+  
+    float: left;
+}
+#redeSocial ul{
+    display: none;;
+   
+    
+}
+    
+#redeSocial ul li{
+    list-style: none;
+    padding-bottom: 5px;
+   
+    
+        
+}
+#redeSocial ul li:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    
+}
+/*********** FIM REDE SOCIAL *******/
+
+
+p{
+    text-align: center;
+    white-space:pre-wrap;
+}
+p:hover{
+    background-color: floralwhite;
+}
+#textoNoticia{
+    height: 1590px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/********** FALE CONOSCO **********/
+#faleConosco{
+    width: 1000px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    font-size: 20px;
+    background-color:black;
+    
+    
+}
+#faleConosco h2{
+    color: peru;
+    margin-bottom: 20px;    
+}
+#tblFaleconosco{
+    width: 900px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    background-color:dimgray;
+    text-align: center;
+}
+/********** FIM FALE CONOSCO **********/
+
+/********** ESTILIZAÇÃO DAS INPUTS *************/
+input[type=text],[type=email],[type=password]{
+    font-size: 15px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:250px;
+    height: 20px;
+    
+        
+}
+textarea{
+    border: 1px solid #000000;
+    background:#cccccc;
+    width:250px;
+    height:100px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+input[type=text]:hover,input[type=email]:hover,input[type=password]:hover, textarea:hover{ 
+         background: #ffffff; border:1px solid #990000;
+}
+input[type=submit]{
+        background:brown;
+        cursor: pointer;
+        padding: 10px;
+        color:#ffffff;
+}
+
+/* CAMPO DE BUSCA */
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+    
+   
+}
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:20px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+#divBusca img{
+  float:left;
+}
+/* FIM DO CAMPO DE BUSCA */
+
+.promoAbsolute{
+    position: absolute;
+    
+}
+.subirImg{
+   margin-top: 40px;
+    margin-left: 50px
+    }
+}

@@ -1,0 +1,306 @@
+
+#principal {
+    width: 1400px;
+    height: 1230px;
+    background-color:aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    box-shadow: 0px 0px 1em #666;
+    -webkit-box-shadow: 0px 0px 1em #666;
+    -moz-box-shadow: 0px 0px 1em #666;
+}
+header{
+    
+    height: 230px;
+    border-bottom: solid 1px #6771f3;
+    
+}
+h1,h2{
+    color: blue;
+     font-family: monospace;
+}
+#cabecalho{
+    height: 220px;
+    display: inline-flex;
+    
+}
+#cabecalho h1,h2{
+    padding-left: 170px;
+    margin-top: 115px;
+}
+#btndesligar{
+    float: right;   
+    width: 50px;
+    height: 50px;
+    
+}
+h2{
+    padding: 0;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.botao{
+    float: right;   
+    margin-top: 20px;
+    background-color: #1a1a1a;
+    border-radius: 100px;
+    border: 0px;
+}
+#btndesligar:hover{
+    
+    cursor: pointer;
+}
+#conteudo{
+    width:1300px;
+    height: 200px;
+    
+}
+#inicioConteudo{
+     float: right;
+     padding: 30px;
+     font-size: 15px;
+     color: blue;
+     font-family: monospace;
+}
+
+#menuConteudo img{
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    
+}#menuConteudo img:hover{
+-webkit-transform: scale(1.5);
+   -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+     -o-transform: scale(1.5);
+        transform: scale(1.5);
+        transform: scale(1.5); 
+    
+}
+
+#logo{
+    width: 250px;
+    height: 200px;
+    margin-left: 390px;
+}
+#adcUser{
+    text-align: center; 
+}
+#btn{
+background-color: #ccc;
+color: #444;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+    
+}
+#btn:hover{
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+cursor: pointer;
+}
+#tblUser{
+    width: 800px;
+    text-align: center;
+    color: #B8860B;   
+    margin-left: auto;
+    margin-right: auto;
+}
+#tblNivel{
+     color:     #B8860B;   
+}
+.tblExibicao{
+    width: 900px;
+    height: 200px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: inline;   
+    
+    
+}
+
+#exibirDiv{
+    width: 1000px;
+    margin-top: 30px;
+    border-radius: 50px;
+    margin-left: -100px;
+    background-color: #ADD8E6;
+}
+.button{
+    background-color: #ccc;
+    color: #444;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 0px;
+    
+    
+}
+.button:hover{
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+    cursor: pointer;
+}
+#faleconosco{
+    width: 1400px;  
+    height: auto;
+    margin-top: 25px;    
+    text-align: center;
+
+    
+    
+    
+}
+#tblFaleConosco{
+    width: 100%;
+    height: 500px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #4876FF;
+   
+    overflow: auto;
+     box-shadow: 0px 0px 1em #666;
+    -webkit-box-shadow: 0px 0px 1em #666;
+    -moz-box-shadow: 0px 0px 1em #666;
+    
+    
+    
+    
+}
+#tabelafale{
+     margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#tblFaleConosco td{
+    width: 200px;
+    border: 1px solid pink;
+    padding: 10px;
+    
+}
+
+.tblVisu{
+    width: 1000px;
+    padding: 20px;
+    
+}
+.tblVisu td{
+    width: 100px;
+    //padding-left: 20px;
+    border: 1px solid black; 
+    
+}
+.tblSobre td{
+    width: 250px;
+    height: auto;
+     border: 1px solid black; 
+}
+
+#tblCadastrados{
+    width: 100%;
+    height: 500px;
+    overflow:auto;
+    
+}
+input[type=text]:hover,input[type=email]:hover,input[type=password]:hover, textarea:hover{ 
+         background: #696969; border:1px solid #990000;
+}
+input[type=text],[type=email],[type=password]{
+    font-size: 15px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:250px;
+    height: 20px;
+    
+        
+}
+textarea{
+    background: #cccccc; 
+     box-shadow: 1px 1px 2px #333333;    
+    
+}
+.tabelaNivel{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline;
+    padding-left: 20px;
+}
+#divNivel{
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    
+    overflow: auto;
+}
+#tblnivelUser{
+    width: 1000px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.btnUser{
+    text-align: center;
+    margin-top: 50px;
+    background-color: aqua;
+    padding: 20px;
+    cursor: pointer;
+}
+#rodape{
+    
+}
+#menuPrincipal{
+    margin-top: 300px;
+}
+
+.modal{
+	width:700px;
+	height:500px;
+	background-color:#ffffff;
+	margin:auto;
+	margin-top:250px;
+    z-index: 998;
+
+}
+
+.modalContainer{
+	width:100%;
+	height:100%;
+	background: rgba(0, 0, 0, 0.7);
+	position:fixed;
+	display:none;
+    z-index: 999;
+	
+
+}
+#tblModal{
+    background-color: antiquewhite;
+    border-radius: 20px;
+   
+}
+#tblModal td{
+    padding: 10px;
+    font-size:20px;
+     border: 1px solid pink;
+}
+.ver{
+    text-decoration: none;
+    color: #B8860B;
+}

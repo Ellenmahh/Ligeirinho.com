@@ -1,0 +1,43 @@
+<table id="tblFaleConosco">
+                    
+					<tr style="background-color: #ccc;">
+                        <td>Nome:</td>
+						<td>Telefone: </td>
+						<td>Celular:</td>
+						<td>Email: </td>
+                        <td>Excluir</td>
+                        <td>Mais</td>
+					</tr>
+                     <tr>
+                        <td><?php echo $retorno['nome']?></td>
+						<td> <?php echo $retorno['telefone']?></td>
+						<td> <?php echo $retorno['celular']?></td>
+						<td> <?php echo $retorno['email']?></td>
+                         <td>
+                            <a href="admFaleConosco.php?modo=excluir&codigo=<?php echo $retorno['id']?>"> 
+                            <img style="height:50px" src="CMS_IMG/lixeira.png"></a> 
+                         </td>
+                         <td>
+                            <img id="mais" style="height:50px" src="CMS_IMG/mais.png">
+                         </td>
+                    </tr>
+                 </table>
+                   
+                         <table id="tblMais">
+                            <tr style=" background-color:#ccc;">
+                                <td>Profissão</td>
+                                <td>Home Page</td>
+                                <td>Link Face</td>
+                                <td>Sugestoões/Críticas</td>
+                                <td>Informações sobre o Produto</td>
+                            </tr>
+                            <tr>
+                                <td> <?php echo $retorno['profissao']?></td>
+                                <td> <?php echo $retorno['homePage']?></td>
+                                <td> <?php echo $retorno['linkFace']?></td>
+                                <td><?php echo $retorno['sugestaoOuCritica']?></td>
+                                <td><?php echo $retorno['infoProdutos']?></td>  
+                            </tr>
+                        </table>
+                 
+                 <?php }?>
